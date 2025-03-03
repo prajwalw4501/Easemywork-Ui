@@ -74,7 +74,7 @@ const EmployeeBooking = () => {
       const { id: order_id, amount, currency } = orderResponse.data;
 
       const options = {
-        key: "rzp_test_PoPCUX0so3eLSh",
+        key: "rzp_test_xW6fInncQuVG8r",
         amount: amount,
         currency: currency,
         name: "Service Booking",
