@@ -29,7 +29,7 @@ export const Header = () => {
 
   const renderNavLinks = () => (
     <>
-      {user.role === "ROLE_USER" && (
+      {user.role === "ROLE_OWNER" && (
         <>
           <NavLink
             to="/register"
@@ -54,7 +54,7 @@ export const Header = () => {
           </NavLink>
         </>
       )}
-      {user.role === "ROLE_OWNER" && (
+      {user.role === "ROLE_USER" && (
         <>
           <NavLink
             to="/home"
